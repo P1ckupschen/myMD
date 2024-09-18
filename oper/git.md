@@ -11,6 +11,7 @@ git status 查看状态
 1
 git clone + 远程地址 克隆 适合本地没有代码
 2
+git remote set-url origin https://new.url.to.your/repo.git 切换远程
 git remote add origin + 远程仓库
 
 git remote -v
