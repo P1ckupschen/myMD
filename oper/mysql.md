@@ -74,6 +74,7 @@ TRUNCATE TABLE sys_table;
 
 导出表数据
 mysqldump -u hbkj -p -h 10.195.159.201 --set-gtid-purged=off -P 30335 hb_sql > /mnt/data/back.sql;
+mysqldump -u （mysql账号名） -p -h （ip） --set-gtid-purged=off -P （端口）  （数据库名） > /mnt/data/back.sql;
 
 查看表结构
 show full columns from sys_report;
