@@ -1,0 +1,1 @@
+sudo firewall-cmd --zone=public --add-port=443/tcp --permanent 添加端口后  sudo firewall-cmd --list-all 防火墙策略 sudo firewall-cmd --state 防火墙状态
