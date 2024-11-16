@@ -14,3 +14,4 @@ cat /etc/os-release
 或者
 uname -r （-a）
 lsb_release -a
+cat /proc/version
