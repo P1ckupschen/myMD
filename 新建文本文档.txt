@@ -8,3 +8,8 @@ unzip example.zip -d /path/to/directory
 rm -r folder_name 
 删除文件夹
 rmdir folder_name
+
+查看服务器内核
+cat /etc/os-release
+或者
+uname -r （-a）
