@@ -13,3 +13,4 @@ rmdir folder_name
 cat /etc/os-release
 或者
 uname -r （-a）
+lsb_release -a
